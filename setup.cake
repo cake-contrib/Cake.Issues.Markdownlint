@@ -9,7 +9,8 @@ BuildParameters.SetParameters(
     title: "Cake.Issues.Markdownlint",
     repositoryOwner: "cake-contrib",
     repositoryName: "Cake.Issues.Markdownlint",
-    appVeyorAccountName: "cakecontrib");
+    appVeyorAccountName: "cakecontrib",
+    shouldRunCodecov: false);
 
 BuildParameters.PrintParameters(Context);
 
