@@ -18,11 +18,8 @@ ToolSettings.SetToolSettings(
     context: Context,
     dupFinderExcludePattern: new string[] 
     { 
-        BuildParameters.RootDirectoryPath + "/src/Cake.Issues.Markdownlint/Markdownlint/MarkdownlintIssuesSettings.cs",
-        BuildParameters.RootDirectoryPath + "/src/Cake.Issues.Markdownlint/MarkdownlintCli/MarkdownlintCliIssuesSettings.cs",
         BuildParameters.RootDirectoryPath + "/src/Cake.Issues.Markdownlint.Tests/*.cs",
-        BuildParameters.RootDirectoryPath + "/src/Cake.Issues.Markdownlint.Tests/Markdownlint/*.cs", 
-        BuildParameters.RootDirectoryPath + "/src/Cake.Issues.Markdownlint.Tests/MarkdownlintCli/*.cs" 
+        BuildParameters.RootDirectoryPath + "/src/Cake.Issues.Markdownlint.Tests/LogFileFormat/*.cs" 
     },
     testCoverageFilter: "+[*]* -[xunit.*]* -[Cake.Core]* -[Cake.Testing]* -[*.Tests]* -[Cake.Issues]* -[Cake.Issues.Testing]*",
     testCoverageExcludeByAttribute: "*.ExcludeFromCodeCoverage*",
