@@ -19,7 +19,7 @@ and for general information about the Cake build automation system see the [Cake
 
 |Develop|Master|
 |:--:|:--:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/g67kxs2b6n1muc9r/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-markdownlint/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/g67kxs2b6n1muc9r/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-markdownlint/branch/master)|
+|[![Build status](https://ci.appveyor.com/api/projects/status/5tyaa96wkuy9uxqs/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-markdownlint/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/5tyaa96wkuy9uxqs?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-markdownlint/branch/master)|
 
 ## Code Coverage
 
