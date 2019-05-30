@@ -17,9 +17,10 @@ and for general information about the Cake build automation system see the [Cake
 
 ## Build Status
 
-|Develop|Master|
-|:--:|:--:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/5tyaa96wkuy9uxqs/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-markdownlint/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/5tyaa96wkuy9uxqs?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-markdownlint/branch/master)|
+| | Develop | Master |
+|:--:|:--:|:--:|
+|AppVeyor Windows|[![Build status](https://ci.appveyor.com/api/projects/status/5tyaa96wkuy9uxqs/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-markdownlint/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/5tyaa96wkuy9uxqs/branch/master?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-markdownlint/branch/master)|
+|Azure DevOps Windows|[![Build Status](https://dev.azure.com/cake-contrib/Cake.Issues.Markdownlint/_apis/build/status/cake-contrib.Cake.Issues.Markdownlint?branchName=develop&jobName=Windows)](https://dev.azure.com/cake-contrib/Cake.Issues.Markdownlint/_build/latest?definitionId=16?branchName=develop)|[![Build Status](https://dev.azure.com/cake-contrib/Cake.Issues.Markdownlint/_apis/build/status/cake-contrib.Cake.Issues.Markdownlint?branchName=master&jobName=Windows)](https://dev.azure.com/cake-contrib/Cake.Issues.Markdownlint/_build/latest?definitionId=16?branchName=master)|
 
 ## Code Coverage
 
