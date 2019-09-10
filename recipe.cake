@@ -3,7 +3,7 @@
 Environment.SetVariableNames();
 
 BuildParameters.SetParameters(
-    context: Context, 
+    context: Context,
     buildSystem: BuildSystem,
     sourceDirectoryPath: "./src",
     title: "Cake.Issues.Markdownlint",
@@ -17,8 +17,8 @@ BuildParameters.PrintParameters(Context);
 
 ToolSettings.SetToolSettings(
     context: Context,
-    dupFinderExcludePattern: new string[] 
-    { 
+    dupFinderExcludePattern: new string[]
+    {
         BuildParameters.RootDirectoryPath + "/src/Cake.Issues.Markdownlint.Tests/*.cs",
         BuildParameters.RootDirectoryPath + "/src/Cake.Issues.Markdownlint.Tests/LogFileFormat/*.cs",
         BuildParameters.RootDirectoryPath + "/src/Cake.Issues.Markdownlint*/**/*.AssemblyInfo.cs"
