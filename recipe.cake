@@ -11,7 +11,8 @@ BuildParameters.SetParameters(
     repositoryName: "Cake.Issues.Markdownlint",
     appVeyorAccountName: "cakecontrib",
     shouldGenerateDocumentation: false,
-    shouldRunCodecov: false);
+    shouldRunCodecov: false,
+    shouldRunGitVersion: true);
 
 BuildParameters.PrintParameters(Context);
 
