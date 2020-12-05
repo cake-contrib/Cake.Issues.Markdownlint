@@ -25,7 +25,7 @@ ToolSettings.SetToolSettings(
         BuildParameters.RootDirectoryPath + "/src/Cake.Issues.Markdownlint.Tests/LogFileFormat/*.cs",
         BuildParameters.RootDirectoryPath + "/src/Cake.Issues.Markdownlint*/**/*.AssemblyInfo.cs"
     },
-    testCoverageFilter: "+[*]* -[xunit.*]* -[Cake.Core]* -[Cake.Testing]* -[*.Tests]* -[Cake.Issues]* -[Cake.Issues.Testing]* -[Shouldly]*",
+    testCoverageFilter: "+[*]* -[xunit.*]* -[Cake.Core]* -[Cake.Testing]* -[*.Tests]* -[Cake.Issues]* -[Cake.Issues.Testing]* -[Shouldly]* -[DiffEngine]* -[EmptyFiles]*",
     testCoverageExcludeByAttribute: "*.ExcludeFromCodeCoverage*",
     testCoverageExcludeByFile: "*/*Designer.cs;*/*.g.cs;*/*.g.i.cs");
 
