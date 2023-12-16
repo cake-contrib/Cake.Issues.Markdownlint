@@ -44,6 +44,10 @@ jobs:
   pool:
     vmImage: 'windows-2019'
   steps:
+  - task: UseDotNet@2
+    inputs:
+      version: '6.x'
+    displayName: 'Install .NET 6'
   - task: NodeTool@0
     inputs:
       versionSpec: '18.x'
@@ -71,6 +75,10 @@ jobs:
   pool:
     vmImage: 'windows-2019'
   steps:
+  - task: UseDotNet@2
+    inputs:
+      version: '6.x'
+    displayName: 'Install .NET 6'
   - task: NodeTool@0
     inputs:
       versionSpec: '18.x'
@@ -98,6 +106,10 @@ jobs:
   pool:
     vmImage: 'macOS-11'
   steps:
+  - task: UseDotNet@2
+    inputs:
+      version: '6.x'
+    displayName: 'Install .NET 6'
   - task: NodeTool@0
     inputs:
       versionSpec: '18.x'
@@ -126,6 +138,10 @@ jobs:
   pool:
     vmImage: 'macOS-13'
   steps:
+  - task: UseDotNet@2
+    inputs:
+      version: '6.x'
+    displayName: 'Install .NET 6'
   - task: NodeTool@0
     inputs:
       versionSpec: '18.x'
@@ -154,6 +170,10 @@ jobs:
   pool:
     vmImage: 'ubuntu-20.04'
   steps:
+  - task: UseDotNet@2
+    inputs:
+      version: '6.x'
+    displayName: 'Install .NET 6'
   - task: NodeTool@0
     inputs:
       versionSpec: '18.x'
@@ -182,6 +202,10 @@ jobs:
   pool:
     vmImage: 'ubuntu-22.04'
   steps:
+  - task: UseDotNet@2
+    inputs:
+      version: '6.x'
+    displayName: 'Install .NET 6'
   - task: NodeTool@0
     inputs:
       versionSpec: '16.x'
